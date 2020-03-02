@@ -1,0 +1,27 @@
+.test {
+  display: grid;
+  grid-auto-rows: 30%;
+  grid-gap: 10px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+}
+
+.grid-container--fill-1, .grid-container--fill-2, .grid-container--fill-3, .grid-container--fill-4 {
+  grid-template-columns: repeat(auto-fill, 17px);
+}
+
+.grid-container {
+  display: grid;
+}
+
+.grid-element {
+  background-color: deepPink;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
